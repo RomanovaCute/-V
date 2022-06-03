@@ -76,7 +76,6 @@ button.addEventListener('click', censor);
 ![certificate](/images/certificate.jpg "Hackathon winner certificate")
 
 * Participation in a group project, a website layout with JavaScript elements for the company "CleanSept" was performed
-
 [Посмотреть исходный код:](https://github.com/Rinelle/clean_sept.git)
 
 
