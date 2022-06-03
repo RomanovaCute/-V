@@ -35,6 +35,9 @@ I dream to participate in projects useful to society, ready to study additional 
 * Slack
 *******
 ### Code example:
+
+The purpose of this code is to perform spam filtering: if the entered string contains the words "viagra" and/or "xxx", they are replaced by "***".
+
 ```let textString = '';
 
 function censor (){
