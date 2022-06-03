@@ -51,3 +51,15 @@ function censor (){
 
 button.addEventListener('click', censor);
 ```
+*******
+### Courses and experience:
+* A course on frontend development at #ITGIRLSCHOOL (in progress)
+* RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)
+
+* Participation in the #ITGIRLSCHOOL hackathon, the goal of which was to implement a website on the theme of "Socially Important Projects
+[Посмотреть исходный код:](https://github.com/AnnaChernopyatova/hacathon_team4.git)
+![certificate](/images/certificate.jpg "Hackathon winner certificate")
+
+* Participation in a group project, a website layout with JavaScript elements for the company "CleanSept" was performed
+[Посмотреть исходный код:](https://github.com/Rinelle/clean_sept.git)
+********
