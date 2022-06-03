@@ -6,7 +6,7 @@
 * E-mail: romanova17romanova@yandex.ru
 * [LinkedIn](https://www.linkedin.com/in/ekaterina-romanova-57178b232)
 
-********
+***
 
 ### A brief summary of myself
 
@@ -21,7 +21,7 @@ I study English on my own and on a course, including participating in conversati
 In addition, 2 years was a tutor in chemistry for schoolchildren, I have the skill to teach. Therefore, I am able to communicate with people, convey their thoughts clearly.
 
 I dream to participate in projects useful to society, ready to study additional technology stacks. I am open to work as a mentor.
-*******
+***
 ### Skills
 * HTML5, CSS3
 * Bootstrap
@@ -29,11 +29,11 @@ I dream to participate in projects useful to society, ready to study additional 
 * Figma (basic level)
 * JavaScript, ES6+
 * React, react-router, MobX
-*******
+***
 ### Tools
 * Visual Studio Code
 * Slack
-*******
+***
 ### Code example:
 
 The purpose of this code is to perform spam filtering: if the entered string contains the words "viagra" and/or "xxx", they are replaced by "***".
@@ -51,19 +51,19 @@ function censor (){
 
 button.addEventListener('click', censor);
 ```
-*******
+***
 ### Courses and experience:
 * A course on frontend development at #ITGIRLSCHOOL (in progress)
 * RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)
 
 * Participation in the #ITGIRLSCHOOL hackathon, the goal of which was to implement a website on the theme of "Socially Important Projects
 [Посмотреть исходный код:](https://github.com/AnnaChernopyatova/hacathon_team4.git)
-![certificate](/images/certificate.jpg "Hackathon winner certificate")
+![certificate](./images/certificate.jpg "Hackathon winner certificate")
 
 * Participation in a group project, a website layout with JavaScript elements for the company "CleanSept" was performed
 
 [Посмотреть исходный код:](https://github.com/Rinelle/clean_sept.git)
-********
+***
 ### Languages:
 * English - B2 (Upper-intermediate)
-********
+***
