@@ -30,3 +30,7 @@ I dream to participate in projects useful to society, ready to study additional 
 * JavaScript, ES6+
 * React, react-router, MobX
 *******
+### Tools
+* Visual Studio Code
+* Slack
+*******
