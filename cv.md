@@ -34,3 +34,17 @@ I dream to participate in projects useful to society, ready to study additional 
 * Visual Studio Code
 * Slack
 *******
+### Code example:
+```let textString = '';
+
+function censor (){
+    let comment = document.querySelector('input[name="newComment"]').value;
+    let new1 = comment.replace(/viagra/g, '***');
+    let new2 = new1.replace(/xxx/g, '***');
+
+       commentsList.innerHTML = textString; 
+       console.log(textString);
+}
+
+button.addEventListener('click', censor);
+```
