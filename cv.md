@@ -22,7 +22,9 @@ In addition, 2 years was a tutor in chemistry for schoolchildren, I have the ski
 
 I dream to participate in projects useful to society, ready to study additional technology stacks. I am open to work as a mentor.
 
+
 ***
+
 
 ### Skills
 * HTML5, CSS3
@@ -32,13 +34,17 @@ I dream to participate in projects useful to society, ready to study additional 
 * JavaScript, ES6+
 * React, react-router, MobX
 
+
 ***
+
 
 ### Tools
 * Visual Studio Code
 * Slack
 
+
 ***
+
 
 ### Code example:
 
@@ -73,9 +79,9 @@ button.addEventListener('click', censor);
 
 [Посмотреть исходный код:](https://github.com/Rinelle/clean_sept.git)
 
+
 ***
+
 
 ### Languages:
 * English - B2 (Upper-intermediate)
-
-***
