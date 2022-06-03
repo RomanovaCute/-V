@@ -64,3 +64,6 @@ button.addEventListener('click', censor);
 
 [Посмотреть исходный код:](https://github.com/Rinelle/clean_sept.git)
 ********
+### Languages:
+* English - B2 (Upper-intermediate)
+********
