@@ -38,7 +38,8 @@ I dream to participate in projects useful to society, ready to study additional 
 
 The purpose of this code is to perform spam filtering: if the entered string contains the words "viagra" and/or "xxx", they are replaced by "***".
 
-```let textString = '';
+```JavaScript
+let textString = '';
 
 function censor (){
     let comment = document.querySelector('input[name="newComment"]').value;
@@ -58,7 +59,7 @@ button.addEventListener('click', censor);
 
 * Participation in the #ITGIRLSCHOOL hackathon, the goal of which was to implement a website on the theme of "Socially Important Projects
 [Посмотреть исходный код:](https://github.com/AnnaChernopyatova/hacathon_team4.git)
-![certificate](images/certificate.jpg "Hackathon winner certificate")
+![certificate](/images/certificate.jpg "Hackathon winner certificate")
 
 * Participation in a group project, a website layout with JavaScript elements for the company "CleanSept" was performed
 
