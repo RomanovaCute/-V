@@ -2,6 +2,6 @@
 ## Junior Frontend developer
 ## Contacnts:
 
-* +7 919 713 34 04
-* [E-mail:] [romanova17romanova@yandex.ru]
+* Phone: +7 919 713 34 04
+* E-mail: romanova17romanova@yandex.ru
 * [LinkedIn](https://www.linkedin.com/in/ekaterina-romanova-57178b232)
