@@ -186,6 +186,25 @@
                     <p class="languages-box__subtitle">Native</p>
                 </div>
             </section>
+            <section class="cv-code">
+                <h2 class="cv-code__title">Code example</h2>
+                <div class="cv-code__example">
+                    <pre><span style="color: #000066; font-weight: bold;">const</span> list <span style="color: #339933;">=</span> document.<span style="color: #660066;">querySelector</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'#commentsList'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                        &nbsp;
+                        <span style="color: #000066; font-weight: bold;">function</span> censor <span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #009900;">&#123;</span>
+                            let comment <span style="color: #339933;">=</span> document.<span style="color: #660066;">querySelector</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'input[name=&quot;newComment&quot;]'</span><span style="color: #009900;">&#41;</span>.<span style="color: #660066;">value</span>
+                                .<span style="color: #660066;">replace</span><span style="color: #009900;">&#40;</span><span style="color: #009966; font-style: italic;">/viagra/gi</span><span style="color: #339933;">,</span> <span style="color: #3366CC;">'***'</span><span style="color: #009900;">&#41;</span>
+                                .<span style="color: #660066;">replace</span><span style="color: #009900;">&#40;</span><span style="color: #009966; font-style: italic;">/xxx/gi</span><span style="color: #339933;">,</span> <span style="color: #3366CC;">'***'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                        &nbsp;
+                            <span style="color: #000066; font-weight: bold;">const</span> newListItem <span style="color: #339933;">=</span> document.<span style="color: #660066;">createElement</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'div'</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                            newListItem.<span style="color: #660066;">innerHTML</span> <span style="color: #339933;">=</span> comment<span style="color: #339933;">;</span>
+                            list.<span style="color: #660066;">append</span><span style="color: #009900;">&#40;</span>newListItem<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+                            document.<span style="color: #660066;">querySelector</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'input[name=&quot;newComment&quot;]'</span><span style="color: #009900;">&#41;</span>.<span style="color: #660066;">value</span> <span style="color: #339933;">=</span> <span style="color: #3366CC;">''</span><span style="color: #339933;">;</span>
+                        <span style="color: #009900;">&#125;</span>
+                        document.<span style="color: #660066;">querySelector</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'#button'</span><span style="color: #009900;">&#41;</span>.<span style="color: #660066;">addEventListener</span><span style="color: #009900;">&#40;</span><span style="color: #3366CC;">'click'</span><span style="color: #339933;">,</span> censor<span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span></pre>
+                </div>
+                
+            </section>
         </main>
     </div>
 </body>
