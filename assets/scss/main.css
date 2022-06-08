@@ -395,6 +395,13 @@ p, span {
   margin: 0;
 }
 
+.logo {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  width: 50px;
+  height: 50px;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -470,6 +477,7 @@ header nav {
   display: -ms-flexbox;
   display: flex;
   padding-right: 55px;
+  font-weight: bold;
 }
 
 header nav ul {
@@ -498,6 +506,7 @@ header nav ul li:not(:last-child) {
           align-items: flex-end;
   position: relative;
   margin-top: 77px;
+  margin-bottom: 15px;
   padding: 20px 80px 0 20px;
   width: 93%;
 }
@@ -598,5 +607,29 @@ header nav ul li:not(:last-child) {
 
 .cv-about-me .cv-subtitle p {
   margin-bottom: 5px;
+}
+
+.cv-contacts__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 35px 0px 10px 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cv-contacts__box li:not(:first-child) {
+  margin-right: 20px;
+}
+
+.cv-contacts__box a :hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 /*# sourceMappingURL=main.css.map */
