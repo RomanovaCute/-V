@@ -1,0 +1,57 @@
+img{
+    width: 40%;
+    height: 40%;
+}
+body {
+    font-family: $base-font;
+    box-sizing: border-box;
+    background-color: #060239;
+
+    &.fixed {
+        overflow: hidden;
+        margin-right: 17px;
+
+        @media (max-width: 530px) {
+            margin-right: 0;
+        }
+    }
+}
+
+h1{
+    font-size: $h1-title;
+    color: $text;
+    margin: 0;
+}
+
+h2{
+    font-size: $h2-title;
+    color: $title;
+}
+
+p, span{
+    color: $text;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 $tabled-padding;
+
+    @media (max-width: $mobile-large) {
+        padding: 0 $mobile-padding;
+    }
+}
+
+.mobile {
+    display: none;
+
+    @media (max-width: $mobile-large) {
+        display: block;
+    }
+}
+
+.desktop {
+    @media (max-width: $mobile-large) {
+        display: none;
+    }
+}
