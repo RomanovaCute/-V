@@ -920,4 +920,16 @@ header nav ul li:not(:last-child) {
 .cv-languages__boxes .box p {
   font-size: 2em;
 }
+
+.cv-code {
+  display: block;
+  width: 52.5%;
+  margin: 60px auto;
+}
+
+.cv-code__example {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  font-size: 1.5em;
+}
 /*# sourceMappingURL=main.css.map */

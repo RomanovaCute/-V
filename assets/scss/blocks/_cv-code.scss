@@ -1,0 +1,10 @@
+.cv-code{
+    display: block;
+    width: 52.5%;
+    margin: 60px auto;
+
+    &__example{
+        filter: invert(1);
+        font-size: 1.2em;
+    }
+}
