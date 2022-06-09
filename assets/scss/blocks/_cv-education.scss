@@ -1,0 +1,54 @@
+.cv-education{
+    display: flex;
+    flex-direction: column;
+    width: 52.5%;
+    margin: 25px auto;
+    color: wheat;
+
+    li:not(:last-child){
+            margin-bottom: 40px;
+        }
+
+    li:nth-child(even){
+            transform: translateX(321px);
+        }
+
+    & .cv-education__list{
+        padding: 0;
+    }
+
+    & .cv-education__list-item{
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+        width: 55%;
+        border: 2px solid wheat;
+        border-radius: 15px;
+
+    .education__date-and-direction{
+       display: inline-block;
+        width: 60%;
+        padding: 10px 30px;
+    }
+    
+    .education__company{
+        position: relative;
+        padding: 5px 28px 30px;
+        display: inline-block;
+
+        a{
+            text-decoration: underline;
+        }
+
+        .cursor{
+            position: absolute;
+            left: 90%;
+            bottom: 40%;
+        }
+    
+        p{
+    margin: 0;
+        }
+    }
+    }
+}

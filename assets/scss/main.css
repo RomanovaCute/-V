@@ -401,6 +401,11 @@ p, span {
   height: 50px;
 }
 
+.cursor {
+  width: 20px;
+  height: 20px;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -817,5 +822,71 @@ header nav ul li:not(:last-child) {
           transform: translateX(60px);
   border: 2px solid #e347a0;
   border-radius: 15px;
+}
+
+.cv-education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 52.5%;
+  margin: 25px auto;
+  color: wheat;
+}
+
+.cv-education li:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.cv-education li:nth-child(even) {
+  -webkit-transform: translateX(321px);
+          transform: translateX(321px);
+}
+
+.cv-education .cv-education__list {
+  padding: 0;
+}
+
+.cv-education .cv-education__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 25px;
+  width: 55%;
+  border: 2px solid wheat;
+  border-radius: 15px;
+}
+
+.cv-education .cv-education__list-item .education__date-and-direction {
+  display: inline-block;
+  width: 60%;
+  padding: 10px 30px;
+}
+
+.cv-education .cv-education__list-item .education__company {
+  position: relative;
+  padding: 5px 28px 30px;
+  display: inline-block;
+}
+
+.cv-education .cv-education__list-item .education__company a {
+  text-decoration: underline;
+}
+
+.cv-education .cv-education__list-item .education__company .cursor {
+  position: absolute;
+  left: 90%;
+  bottom: 40%;
+}
+
+.cv-education .cv-education__list-item .education__company p {
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
