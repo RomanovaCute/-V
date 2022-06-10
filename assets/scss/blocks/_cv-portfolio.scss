@@ -1,0 +1,74 @@
+.cv-portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 52.5%;
+    margin: 0 auto;
+
+     & .projects-list__item {
+        position: relative;
+        
+        & .item-description{
+            position: absolute;
+            z-index: 1;
+            background: rgba(84, 45, 136, 0.8);
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            display: flex;
+
+            .description-text{
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                width: 75%;
+                padding-top: 33px;
+
+                h3{
+                    color: white;
+                }
+
+                .item-description__descrip{
+                    margin-bottom: 15px;
+                    font-size: 1.6em;
+                }
+                
+                .item-description__subtitle{
+                    color: rgb(192, 122, 186);
+                    font-weight: bold;
+                    font-size: smaller;
+                }
+
+                .item-description__button{
+                    @include button;
+                }
+                .item-description__button:hover{
+                    background-size: 100% 100%;
+                    background-position-x: left;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        & .item-img {
+            display: block;
+            border-radius: 15px;
+            filter: blur(2px);
+        }
+            
+    }
+    
+    .projects-list__item:not(:last-child){
+        margin-bottom: 40px;
+    }
+    .projects-list__item:hover{
+        transform: scale3d(1.1, 1.1, 1.1);
+        transition: 1.5s;
+        transform: translateX(60px);
+        border: 2px solid rgba(227,71,160,1);
+        border-radius: 15px;
+    }
+        
+}

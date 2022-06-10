@@ -1,0 +1,58 @@
+.cv-skills{
+    display: flex;
+    flex-direction: column;
+    width: 52.2%;
+    margin: 0 auto;
+
+    & .blob-two{
+        position: fixed;
+        content: '';
+        top: 322px;
+        right: -106px;
+        transform: rotate(150deg);
+        width: 270px;
+        height: 370px;
+        border-radius: 75% 25% 20% 80% / 82% 16% 84% 18% ;
+        background: rgb(65,0,246);
+        background: linear-gradient(90deg, rgba(65,0,246,1) 0%, rgba(138,25,210,1) 18%, rgba(195,55,174,1) 48%, rgba(226,73,152,1) 76%, rgba(242,93,130,1) 93%);
+        animation: blob 5s infinite;
+
+
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        color: white;
+
+        & li:not(:last-child){
+            margin-bottom: 20px;
+        }
+
+        & .progressbar{
+            background: $progress-bar-back;
+            height: 14px;
+            position: relative;
+            border-radius: 10px;
+            margin-top: 10px;
+
+            & .progress{
+                display: block;
+                height: 100%;
+                background-color: $progress-bar-main;
+                border-radius: 10px;
+                animation: move 10s ;
+                }  
+
+                @keyframes move{
+                    0% {
+                      width: 0
+                    }
+                    100%{
+                      width: 100%;
+                    }
+                  }
+                }
+    }
+}
