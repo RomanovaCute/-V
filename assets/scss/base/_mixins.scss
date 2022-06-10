@@ -1,0 +1,22 @@
+@mixin logo{
+    width: 4%;
+    height: 4%;
+}
+
+@mixin item-description {
+    position: absolute;
+}
+
+@mixin button{
+    background-image: linear-gradient(#871ae0, #ff2f97);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position: right;
+    transition: background-size 500ms;
+    margin-top: 30px;
+    display: inline-block;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
