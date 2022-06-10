@@ -13,7 +13,7 @@ header{
 
     & nav {
         display: flex;
-        padding-right: 55px;
+        padding-right: 120px;
         font-weight: bold;
 
         & ul{
@@ -22,6 +22,14 @@ header{
             & li:not(:last-child){
                 margin-right: 60px;
             }
+
+            & span:hover{
+                color: transparent;
+                background-image: linear-gradient(90deg, #c13eff, #ff3ec9);
+                transition: 1s;
+                -webkit-background-clip: text;
+	            background-clip: text;
+            }
+            }
         }
     }
-}
