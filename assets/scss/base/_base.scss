@@ -1,0 +1,67 @@
+img{
+    width: 100%;
+}
+body {
+    font-family: $base-font;
+    box-sizing: border-box;
+    background-color: #060239;
+
+    &.fixed {
+        overflow: hidden;
+        margin-right: 17px;
+
+        @media (max-width: 530px) {
+            margin-right: 0;
+        }
+    }
+}
+
+h1{
+    font-size: $h1-title;
+    color: $text;
+    margin: 0;
+}
+
+h2{
+    font-size: $h2-title;
+    color: $title;
+}
+
+p, span{
+    color: $text;
+    margin: 0;
+}
+
+.logo{
+    filter: invert(1);
+    width: 50px;
+    height: 50px;
+}
+
+.cursor{
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 $tabled-padding;
+
+    @media (max-width: $mobile-large) {
+        padding: 0 $mobile-padding;
+    }
+}
+
+.mobile {
+    display: none;
+
+    @media (max-width: $mobile-large) {
+        display: block;
+    }
+}
+
+.desktop {
+    @media (max-width: $mobile-large) {
+        display: none;
+    }
+}

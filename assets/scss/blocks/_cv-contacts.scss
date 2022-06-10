@@ -1,0 +1,16 @@
+.cv-contacts__box{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 35px 0px 10px 50px;
+    width: 50%;
+    margin: 0 auto;
+
+    & li:not(:first-child){
+        margin-right: 20px;
+    }
+    
+    a :hover {
+            transform: translateY(-10px);
+            transition: 0.5s;
+        }
+}
