@@ -1,5 +1,5 @@
 # rsschool-cv
 
-https://RomanovaCute.github.io/rsschool-cv/cv
+https://RomanovaCute.github.io/CV/cv
 
-https://RomanovaCute.github.io/rsschool-cv/
+https://RomanovaCute.github.io/CV/
